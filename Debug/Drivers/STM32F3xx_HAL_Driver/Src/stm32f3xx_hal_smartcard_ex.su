@@ -1,0 +1,4 @@
+stm32f3xx_hal_smartcard_ex.c:105:6:HAL_SMARTCARDEx_BlockLength_Config	16	static
+stm32f3xx_hal_smartcard_ex.c:118:6:HAL_SMARTCARDEx_TimeOut_Config	16	static
+stm32f3xx_hal_smartcard_ex.c:130:19:HAL_SMARTCARDEx_EnableReceiverTimeOut	16	static
+stm32f3xx_hal_smartcard_ex.c:162:19:HAL_SMARTCARDEx_DisableReceiverTimeOut	16	static
