@@ -35,6 +35,8 @@ SOFTWARE.
 /* Private function prototypes */
 /* Private functions */
 
+#include "stm32f3xx_ll_gpio.h"
+
 /**
 **===========================================================================
 **
@@ -44,6 +46,10 @@ SOFTWARE.
 */
 int main(void)
 {
+
+
+
+
   uint32_t ii = 0;
 
   /* TODO - Add your application code here */

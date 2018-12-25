@@ -173,38 +173,41 @@ void SystemInit(void)
     SCB->CPACR |= ((3UL << 10*2)|(3UL << 11*2));  /* set CP10 and CP11 Full Access */
   #endif
 
-  /* Reset the RCC clock configuration to the default reset state ------------*/
-  /* Set HSION bit */
-  RCC->CR |= (uint32_t)0x00000001;
 
-  /* Reset CFGR register */
-  RCC->CFGR &= 0xF87FC00C;
 
-  /* Reset HSEON, CSSON and PLLON bits */
-  RCC->CR &= (uint32_t)0xFEF6FFFF;
+      RCC->CR |= RCC_CR_HSEON;   /*chose internal 16mhz as base clock*/
+      while((RCC->CR & RCC_CR_HSERDY) != RCC_CR_HSERDY); /*wake for internal source to be ready*/
 
-  /* Reset HSEBYP bit */
-  RCC->CR &= (uint32_t)0xFFFBFFFF;
+      RCC->CR &= ~RCC_CR_PLLON; /* disable PLL  it could be configured only when it is  disabled*/
 
-  /* Reset PLLSRC, PLLXTPRE, PLLMUL and USBPRE bits */
-  RCC->CFGR &= (uint32_t)0xFF80FFFF;
+      FLASH->ACR |= FLASH_ACR_LATENCY_2;
 
-  /* Reset PREDIV1[3:0] bits */
-  RCC->CFGR2 &= (uint32_t)0xFFFFFFF0;
+      /* Reset CFGR register */
+      RCC->CFGR = 0x00000000U;
+      RCC->CFGR |=  RCC_CFGR_PLLMUL9;
+      RCC->CFGR |=  RCC_CFGR_PLLSRC_HSE_PREDIV;
+      RCC->CFGR |=  RCC_CFGR_PPRE2_DIV2;
 
-  /* Reset USARTSW[1:0], I2CSW and TIMs bits */
-  RCC->CFGR3 &= (uint32_t)0xFF00FCCC;
+      RCC->CR |= RCC_CR_PLLON;
+      while((RCC->CR & RCC_CR_PLLRDY) != RCC_CR_PLLRDY);
 
-  /* Disable all interrupts */
-  RCC->CIR = 0x00000000;
 
-#ifdef VECT_TAB_SRAM
-  SCB->VTOR = SRAM_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal SRAM */
-#else
-  SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH */
-#endif
+
+
+
+      RCC->CFGR  |= RCC_CFGR_SW_PLL;
+      while((RCC->CFGR & RCC_CFGR_SWS) != RCC_CFGR_SWS_PLL);
+
+      /* Disable all interrupts */
+      RCC->CIR = 0x00000000U;
+
+      /* Configure the Vector Table location add offset address ------------------*/
+    #ifdef VECT_TAB_SRAM
+      SCB->VTOR = SRAM_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal SRAM */
+    #else
+      SCB->VTOR = FLASH_BASE | VECT_TAB_OFFSET; /* Vector Table Relocation in Internal FLASH */
+    #endif
 }
-
 /**
    * @brief  Update SystemCoreClock variable according to Clock Register Values.
   *         The SystemCoreClock variable contains the core clock (HCLK), it can

@@ -1357,7 +1357,7 @@ __STATIC_INLINE uint32_t LL_RTC_TIME_Get(RTC_TypeDef *RTCx)
   */
 __STATIC_INLINE void LL_RTC_TIME_EnableDayLightStore(RTC_TypeDef *RTCx)
 {
-  SET_BIT(RTCx->CR, RTC_CR_BKP);
+  SET_BIT(RTCx->CR, RTC_CR_BCK);
 }
 
 /**
@@ -1369,7 +1369,7 @@ __STATIC_INLINE void LL_RTC_TIME_EnableDayLightStore(RTC_TypeDef *RTCx)
   */
 __STATIC_INLINE void LL_RTC_TIME_DisableDayLightStore(RTC_TypeDef *RTCx)
 {
-  CLEAR_BIT(RTCx->CR, RTC_CR_BKP);
+  CLEAR_BIT(RTCx->CR, RTC_CR_BCK);
 }
 
 /**
@@ -1380,7 +1380,7 @@ __STATIC_INLINE void LL_RTC_TIME_DisableDayLightStore(RTC_TypeDef *RTCx)
   */
 __STATIC_INLINE uint32_t LL_RTC_TIME_IsDayLightStoreEnabled(RTC_TypeDef *RTCx)
 {
-  return (READ_BIT(RTCx->CR, RTC_CR_BKP) == (RTC_CR_BKP));
+  return (READ_BIT(RTCx->CR, RTC_CR_BCK) == (RTC_CR_BCK));
 }
 
 /**

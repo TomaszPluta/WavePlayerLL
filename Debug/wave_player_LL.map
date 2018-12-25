@@ -23,141 +23,747 @@ Discarded input sections
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_REG_SetTriggerSource
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_REG_SetSequencerLength
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_INJ_SetTriggerSource
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_INJ_SetQueueMode
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_Disable
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_IsEnabled
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_IsDisableOngoing
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_REG_StopConversion
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_REG_IsConversionOngoing
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_REG_IsStopConversionOngoing
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_INJ_StopConversion
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_INJ_IsConversionOngoing
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_INJ_IsStopConversionOngoing
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_AHB1_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_AHB1_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_CommonDeInit
+                0x0000000000000000       0x4c Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_CommonInit
+                0x0000000000000000       0xbc Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_CommonStructInit
+                0x0000000000000000       0x2e Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_DeInit
+                0x0000000000000000      0x260 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_Init
+                0x0000000000000000       0x4c Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_StructInit
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_REG_Init
+                0x0000000000000000       0x94 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_REG_StructInit
+                0x0000000000000000       0x3a Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_INJ_Init
+                0x0000000000000000       0x76 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .text.LL_ADC_INJ_StructInit
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .debug_info    0x0000000000000000      0x9d1 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .debug_abbrev  0x0000000000000000      0x192 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .debug_aranges
+                0x0000000000000000       0xe0 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .debug_ranges  0x0000000000000000       0xd0 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .debug_line    0x0000000000000000      0x491 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .debug_str     0x0000000000000000      0x752 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+ .debug_frame   0x0000000000000000      0x3e8 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
- .debug_str     0x0000000000000000      0x129 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .text.LL_COMP_IsLocked
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .text.LL_COMP_DeInit
+                0x0000000000000000       0x2e Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .text.LL_COMP_Init
+                0x0000000000000000       0x64 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .text.LL_COMP_StructInit
+                0x0000000000000000       0x3e Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .debug_info    0x0000000000000000      0x248 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .debug_abbrev  0x0000000000000000      0x132 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .debug_aranges
+                0x0000000000000000       0x38 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .debug_ranges  0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .debug_line    0x0000000000000000      0x263 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .debug_str     0x0000000000000000      0x2f4 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+ .debug_frame   0x0000000000000000       0xa8 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_comp.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .text.LL_CRC_ResetCRCCalculationUnit
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .text.LL_CRC_SetPolynomialSize
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .text.LL_CRC_SetInputDataReverseMode
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .text.LL_CRC_SetOutputDataReverseMode
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .text.LL_CRC_SetInitialData
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .text.LL_CRC_SetPolynomialCoef
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .text.LL_CRC_Write_IDR
+                0x0000000000000000       0x1e Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .text.LL_CRC_DeInit
+                0x0000000000000000       0x64 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .debug_info    0x0000000000000000      0x322 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .debug_abbrev  0x0000000000000000      0x148 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .debug_aranges
+                0x0000000000000000       0x58 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .debug_ranges  0x0000000000000000       0x48 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .debug_line    0x0000000000000000      0x29a Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .debug_str     0x0000000000000000      0x368 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+ .debug_frame   0x0000000000000000      0x14c Drivers/LowLevel/src/stm32f3xx_ll_crc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_crc.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .text.LL_DAC_IsEnabled
+                0x0000000000000000       0x3e Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .text.LL_APB1_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .text.LL_APB1_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .text.LL_DAC_DeInit
+                0x0000000000000000       0x30 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .text.LL_DAC_Init
+                0x0000000000000000       0xa2 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .text.LL_DAC_StructInit
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .debug_info    0x0000000000000000      0x3dd Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .debug_abbrev  0x0000000000000000      0x168 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .debug_aranges
+                0x0000000000000000       0x48 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .debug_ranges  0x0000000000000000       0x38 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .debug_line    0x0000000000000000      0x2a1 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .debug_str     0x0000000000000000      0x3c0 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+ .debug_frame   0x0000000000000000       0xf8 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .rodata.CHANNEL_OFFSET_TAB
+                0x0000000000000000        0x7 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_ConfigTransfer
+                0x0000000000000000       0x4c Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_SetDataLength
+                0x0000000000000000       0x48 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_SetMemoryAddress
+                0x0000000000000000       0x30 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_SetPeriphAddress
+                0x0000000000000000       0x30 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_ClearFlag_GI1
+                0x0000000000000000       0x1a Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_ClearFlag_GI2
+                0x0000000000000000       0x1a Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_ClearFlag_GI3
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_ClearFlag_GI4
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_ClearFlag_GI5
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_ClearFlag_GI6
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_ClearFlag_GI7
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_DeInit
+                0x0000000000000000      0x1bc Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_Init
+                0x0000000000000000       0x72 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .text.LL_DMA_StructInit
+                0x0000000000000000       0x50 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .debug_info    0x0000000000000000      0x50f Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .debug_abbrev  0x0000000000000000      0x18e Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .debug_aranges
+                0x0000000000000000       0x88 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .debug_ranges  0x0000000000000000       0x78 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .debug_line    0x0000000000000000      0x429 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .debug_str     0x0000000000000000      0x48b Drivers/LowLevel/src/stm32f3xx_ll_dma.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+ .debug_frame   0x0000000000000000      0x238 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
- .debug_str     0x0000000000000000      0x129 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_EnableIT_0_31
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_EnableIT_32_63
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DisableIT_0_31
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DisableIT_32_63
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_EnableEvent_0_31
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_EnableEvent_32_63
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DisableEvent_0_31
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DisableEvent_32_63
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_EnableRisingTrig_0_31
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_EnableRisingTrig_32_63
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DisableRisingTrig_0_31
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DisableRisingTrig_32_63
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_EnableFallingTrig_0_31
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_EnableFallingTrig_32_63
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DisableFallingTrig_0_31
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DisableFallingTrig_32_63
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_DeInit
+                0x0000000000000000       0x64 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_Init
+                0x0000000000000000      0x1ca Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .text.LL_EXTI_StructInit
+                0x0000000000000000       0x32 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .debug_info    0x0000000000000000      0x50c Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .debug_abbrev  0x0000000000000000      0x180 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .debug_aranges
+                0x0000000000000000       0xb0 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .debug_ranges  0x0000000000000000       0xa0 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .debug_line    0x0000000000000000      0x3aa Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .debug_str     0x0000000000000000      0x4e3 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+ .debug_frame   0x0000000000000000      0x2fc Drivers/LowLevel/src/stm32f3xx_ll_exti.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_exti.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
- .debug_info    0x0000000000000000      0x925 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
- .debug_abbrev  0x0000000000000000      0x174 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
- .debug_aranges
-                0x0000000000000000       0x18 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
- .debug_line    0x0000000000000000      0x245 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
- .debug_str     0x0000000000000000      0x6a6 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
+ .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
+ .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_fmc.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
- .debug_str     0x0000000000000000      0x129 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_SetPinMode
+                0x0000000000000000       0x6e Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_SetPinOutputType
+                0x0000000000000000       0x30 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_SetPinSpeed
+                0x0000000000000000       0x6e Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_SetPinPull
+                0x0000000000000000       0x6e Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_SetAFPin_0_7
+                0x0000000000000000       0x6e Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_SetAFPin_8_15
+                0x0000000000000000       0x72 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_AHB1_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_AHB1_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_DeInit
+                0x0000000000000000       0xcc Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_Init
+                0x0000000000000000      0x108 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .text.LL_GPIO_StructInit
+                0x0000000000000000       0x3a Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .debug_info    0x0000000000000000      0x9fb Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .debug_abbrev  0x0000000000000000      0x219 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .debug_aranges
+                0x0000000000000000       0x70 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .debug_ranges  0x0000000000000000       0x60 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .debug_line    0x0000000000000000      0x40a Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .debug_str     0x0000000000000000      0x41b Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+ .debug_frame   0x0000000000000000      0x1c0 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
- .debug_str     0x0000000000000000      0x12a Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
+ .debug_info    0x0000000000000000       0xb3 Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
+ .debug_abbrev  0x0000000000000000       0x5c Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
+ .debug_aranges
+                0x0000000000000000       0x18 Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
+ .debug_line    0x0000000000000000      0x156 Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
+ .debug_str     0x0000000000000000      0x1fa Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_hrtim.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_Enable
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_Disable
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_ConfigFilters
+                0x0000000000000000       0x2e Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_SetOwnAddress1
+                0x0000000000000000       0x30 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_EnableOwnAddress1
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_DisableOwnAddress1
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_SetTiming
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_SetMode
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_AcknowledgeNextData
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_APB1_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_APB1_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_DeInit
+                0x0000000000000000       0x58 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_Init
+                0x0000000000000000       0x78 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .text.LL_I2C_StructInit
+                0x0000000000000000       0x40 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .debug_info    0x0000000000000000      0x552 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .debug_abbrev  0x0000000000000000      0x166 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .debug_aranges
+                0x0000000000000000       0x88 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .debug_ranges  0x0000000000000000       0x78 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .debug_line    0x0000000000000000      0x336 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .debug_str     0x0000000000000000      0x43e Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+ .debug_frame   0x0000000000000000      0x238 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
- .debug_str     0x0000000000000000      0x12a Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .text.LL_OPAMP_IsLocked
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .text.LL_OPAMP_DeInit
+                0x0000000000000000       0x2e Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .text.LL_OPAMP_Init
+                0x0000000000000000       0x70 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .text.LL_OPAMP_StructInit
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .debug_info    0x0000000000000000      0x20f Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .debug_abbrev  0x0000000000000000      0x141 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .debug_aranges
+                0x0000000000000000       0x38 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .debug_ranges  0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .debug_line    0x0000000000000000      0x263 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .debug_str     0x0000000000000000      0x2ca Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+ .debug_frame   0x0000000000000000       0xa8 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .text.LL_APB1_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .text.LL_APB1_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .text.LL_PWR_DeInit
+                0x0000000000000000       0x1a Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .debug_info    0x0000000000000000      0x1ff Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .debug_abbrev  0x0000000000000000      0x107 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .debug_aranges
+                0x0000000000000000       0x30 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .debug_ranges  0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .debug_line    0x0000000000000000      0x238 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .debug_str     0x0000000000000000      0x2ad Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+ .debug_frame   0x0000000000000000       0x7c Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_HSE_DisableBypass
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_HSI_Enable
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_HSI_IsReady
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_HSI_SetCalibTrimming
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_LSE_IsReady
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetSysClkSource
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetAHBPrescaler
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetAPB1Prescaler
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetAPB2Prescaler
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetUSARTClockSource
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetUARTClockSource
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetI2CClockSource
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetI2SClockSource
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetTIMClockSource
+                0x0000000000000000       0x30 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetUSBClockSource
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetADCClockSource
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_PLL_IsReady
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_PLL_GetMainSource
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_PLL_GetMultiplicator
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_PLL_GetPrediv
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_ClearResetFlags
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .rodata.aADCPrescTable
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_DeInit
+                0x0000000000000000       0xa8 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetSystemClocksFreq
+                0x0000000000000000       0x4a Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetUSARTClockFreq
+                0x0000000000000000      0x164 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetUARTClockFreq
+                0x0000000000000000      0x108 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetI2CClockFreq
+                0x0000000000000000       0x7c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetI2SClockFreq
+                0x0000000000000000       0x32 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetUSBClockFreq
+                0x0000000000000000       0x58 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetADCClockFreq
+                0x0000000000000000       0x88 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.LL_RCC_GetTIMClockFreq
+                0x0000000000000000       0x78 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.RCC_GetSystemClockFreq
+                0x0000000000000000       0x44 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.RCC_GetHCLKClockFreq
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.RCC_GetPCLK1ClockFreq
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.RCC_GetPCLK2ClockFreq
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .text.RCC_PLL_GetFreqDomain_SYS
+                0x0000000000000000       0x84 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .debug_info    0x0000000000000000      0x89c Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .debug_abbrev  0x0000000000000000      0x26d Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .debug_aranges
+                0x0000000000000000      0x130 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .debug_ranges  0x0000000000000000      0x120 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .debug_line    0x0000000000000000      0x59a Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .debug_str     0x0000000000000000      0x7a6 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+ .debug_frame   0x0000000000000000      0x4ec Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_SetHourFormat
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_GetHourFormat
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_EnableInitMode
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_DisableInitMode
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_IsShadowRegBypassEnabled
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_SetAsynchPrescaler
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_SetSynchPrescaler
+                0x0000000000000000       0x2a Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_EnableWriteProtection
+                0x0000000000000000       0x1a Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_DisableWriteProtection
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_TIME_Config
+                0x0000000000000000       0x48 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_DATE_Config
+                0x0000000000000000       0x4c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMA_SetMask
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMA_EnableWeekday
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMA_DisableWeekday
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMA_SetDay
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMA_SetWeekDay
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMA_ConfigTime
+                0x0000000000000000       0x48 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMB_SetMask
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMB_EnableWeekday
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMB_DisableWeekday
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMB_SetDay
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMB_SetWeekDay
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMB_ConfigTime
+                0x0000000000000000       0x48 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_IsActiveFlag_INIT
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_IsActiveFlag_RS
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ClearFlag_RS
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_SYSTICK_IsActiveCounterFlag
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_DeInit
+                0x0000000000000000       0x94 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_Init
+                0x0000000000000000       0x5e Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_StructInit
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_TIME_Init
+                0x0000000000000000      0x150 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_TIME_StructInit
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_DATE_Init
+                0x0000000000000000      0x14c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_DATE_StructInit
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMA_Init
+                0x0000000000000000      0x190 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMB_Init
+                0x0000000000000000      0x190 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMA_StructInit
+                0x0000000000000000       0x3e Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ALMB_StructInit
+                0x0000000000000000       0x3e Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_EnterInitMode
+                0x0000000000000000       0x6a Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_ExitInitMode
+                0x0000000000000000       0x18 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .text.LL_RTC_WaitForSynchro
+                0x0000000000000000       0xa2 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .debug_info    0x0000000000000000      0xd4c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .debug_abbrev  0x0000000000000000      0x1f7 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .debug_aranges
+                0x0000000000000000      0x160 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .debug_ranges  0x0000000000000000      0x150 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .debug_line    0x0000000000000000      0x627 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .debug_str     0x0000000000000000      0x7f6 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+ .debug_frame   0x0000000000000000      0x66c Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_SPI_IsEnabled
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_SPI_SetCRCPolynomial
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_I2S_IsEnabled
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_APB1_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_APB1_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_APB2_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_APB2_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_SPI_DeInit
+                0x0000000000000000       0x78 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_SPI_Init
+                0x0000000000000000       0xa8 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_SPI_StructInit
+                0x0000000000000000       0x52 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_I2S_DeInit
+                0x0000000000000000       0x18 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_I2S_Init
+                0x0000000000000000      0x130 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_I2S_StructInit
+                0x0000000000000000       0x38 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_I2S_ConfigPrescaler
+                0x0000000000000000       0x32 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .text.LL_I2S_InitFullDuplex
+                0x0000000000000000       0x8e Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .debug_info    0x0000000000000000      0x6d1 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .debug_abbrev  0x0000000000000000      0x1cb Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .debug_aranges
+                0x0000000000000000       0x90 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .debug_ranges  0x0000000000000000       0x80 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .debug_line    0x0000000000000000      0x3bf Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .debug_str     0x0000000000000000      0x562 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+ .debug_frame   0x0000000000000000      0x254 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
- .debug_str     0x0000000000000000      0x128 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .rodata.OFFSET_TAB_CCMRx
+                0x0000000000000000        0x9 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .rodata.SHIFT_TAB_OCxx
+                0x0000000000000000        0x9 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .rodata.SHIFT_TAB_ICxx
+                0x0000000000000000        0x9 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .rodata.SHIFT_TAB_CCxP
+                0x0000000000000000        0x9 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .rodata.SHIFT_TAB_OISx
+                0x0000000000000000        0x9 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_SetPrescaler
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_SetAutoReload
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_SetRepetitionCounter
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_OC_SetCompareCH1
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_OC_SetCompareCH2
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_OC_SetCompareCH3
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_OC_SetCompareCH4
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_OC_SetCompareCH5
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_OC_SetCompareCH6
+                0x0000000000000000       0x1c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_SetEncoderMode
+                0x0000000000000000       0x2a Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_GenerateEvent_UPDATE
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_APB1_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_APB1_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_APB2_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_APB2_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_DeInit
+                0x0000000000000000      0x130 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_StructInit
+                0x0000000000000000       0x34 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_Init
+                0x0000000000000000      0x118 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_OC_StructInit
+                0x0000000000000000       0x44 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_OC_Init
+                0x0000000000000000       0x9a Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_IC_StructInit
+                0x0000000000000000       0x2e Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_IC_Init
+                0x0000000000000000       0x70 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_ENCODER_StructInit
+                0x0000000000000000       0x4e Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_ENCODER_Init
+                0x0000000000000000       0xca Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_HALLSENSOR_StructInit
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_HALLSENSOR_Init
+                0x0000000000000000       0xee Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_BDTR_StructInit
+                0x0000000000000000       0x56 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.LL_TIM_BDTR_Init
+                0x0000000000000000       0xf4 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.OC1Config
+                0x0000000000000000      0x10c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.OC2Config
+                0x0000000000000000      0x114 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.OC3Config
+                0x0000000000000000      0x114 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.OC4Config
+                0x0000000000000000       0xe4 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.OC5Config
+                0x0000000000000000       0xd0 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.OC6Config
+                0x0000000000000000       0xd0 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.IC1Config
+                0x0000000000000000       0x5a Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.IC2Config
+                0x0000000000000000       0x5c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.IC3Config
+                0x0000000000000000       0x5c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .text.IC4Config
+                0x0000000000000000       0x5c Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .debug_info    0x0000000000000000      0xf61 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .debug_abbrev  0x0000000000000000      0x1fa Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .debug_aranges
+                0x0000000000000000      0x148 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .debug_ranges  0x0000000000000000      0x138 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .debug_line    0x0000000000000000      0x729 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .debug_str     0x0000000000000000      0x952 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+ .debug_frame   0x0000000000000000      0x5d0 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
  .data          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
  .bss           0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
- .debug_line    0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
- .debug_str     0x0000000000000000      0x12a Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_IsEnabled
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_DisableSCLKOutput
+                0x0000000000000000       0x20 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_SetStopBitsLength
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_SetHWFlowCtrl
+                0x0000000000000000       0x26 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_SetBaudRate
+                0x0000000000000000       0x64 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_APB1_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_APB1_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_APB2_GRP1_ForceReset
+                0x0000000000000000       0x24 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_APB2_GRP1_ReleaseReset
+                0x0000000000000000       0x28 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_DeInit
+                0x0000000000000000       0xb0 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_Init
+                0x0000000000000000       0xfc Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_StructInit
+                0x0000000000000000       0x40 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_ClockInit
+                0x0000000000000000       0x5c Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .text.LL_USART_ClockStructInit
+                0x0000000000000000       0x2c Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .debug_info    0x0000000000000000      0x613 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .debug_abbrev  0x0000000000000000      0x193 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .debug_aranges
+                0x0000000000000000       0x88 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .debug_ranges  0x0000000000000000       0x78 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .debug_line    0x0000000000000000      0x372 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .debug_str     0x0000000000000000      0x4fc Drivers/LowLevel/src/stm32f3xx_ll_usart.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+ .debug_frame   0x0000000000000000      0x238 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
  .ARM.attributes
                 0x0000000000000000       0x39 Drivers/LowLevel/src/stm32f3xx_ll_usart.o
  .text          0x0000000000000000        0x0 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
@@ -216,14 +822,14 @@ Discarded input sections
  .text.UTILS_PLL_IsBusy
                 0x0000000000000000       0x22 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
  .text.UTILS_EnablePLLAndSwitchSystem
-                0x0000000000000000       0xe8 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
- .debug_info    0x0000000000000000      0x88d Drivers/LowLevel/src/stm32f3xx_ll_utils.o
- .debug_abbrev  0x0000000000000000      0x285 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+                0x0000000000000000       0xe0 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+ .debug_info    0x0000000000000000      0x8a9 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+ .debug_abbrev  0x0000000000000000      0x2a6 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
  .debug_aranges
                 0x0000000000000000       0xf0 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
  .debug_ranges  0x0000000000000000       0xe0 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
- .debug_line    0x0000000000000000      0x4d6 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
- .debug_str     0x0000000000000000      0x668 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+ .debug_line    0x0000000000000000      0x4ca Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+ .debug_str     0x0000000000000000      0x680 Drivers/LowLevel/src/stm32f3xx_ll_utils.o
  .comment       0x0000000000000000       0x7d Drivers/LowLevel/src/stm32f3xx_ll_utils.o
  .debug_frame   0x0000000000000000      0x3dc Drivers/LowLevel/src/stm32f3xx_ll_utils.o
  .ARM.attributes
@@ -234,23 +840,33 @@ Discarded input sections
  .text          0x0000000000000000        0x0 src/spi.o
  .data          0x0000000000000000        0x0 src/spi.o
  .bss           0x0000000000000000        0x0 src/spi.o
+ .text.LL_AHB1_GRP1_EnableClock
+                0x0000000000000000       0x30 src/spi.o
+ .text.LL_APB1_GRP1_EnableClock
+                0x0000000000000000       0x30 src/spi.o
+ .text.LL_APB1_GRP1_DisableClock
+                0x0000000000000000       0x28 src/spi.o
+ .text.LL_GPIO_SetPinMode
+                0x0000000000000000       0x6e src/spi.o
+ .text.LL_GPIO_SetPinSpeed
+                0x0000000000000000       0x6e src/spi.o
  .text._ZN9SpiDriverC2Ev
-                0x0000000000000000       0x16 src/spi.o
+                0x0000000000000000       0x90 src/spi.o
  .text._ZN9SpiDriver8SpiCsLowEv
                 0x0000000000000000       0x20 src/spi.o
  .text._ZN9SpiDriver9SpiCsHighEv
                 0x0000000000000000       0x20 src/spi.o
  .text._ZN9SpiDriver8TransmitEh
                 0x0000000000000000       0x58 src/spi.o
- .debug_info    0x0000000000000000      0x305 src/spi.o
- .debug_abbrev  0x0000000000000000      0x192 src/spi.o
+ .debug_info    0x0000000000000000      0x6a9 src/spi.o
+ .debug_abbrev  0x0000000000000000      0x243 src/spi.o
  .debug_aranges
-                0x0000000000000000       0x38 src/spi.o
- .debug_ranges  0x0000000000000000       0x28 src/spi.o
- .debug_line    0x0000000000000000      0x1cb src/spi.o
- .debug_str     0x0000000000000000      0x341 src/spi.o
+                0x0000000000000000       0x60 src/spi.o
+ .debug_ranges  0x0000000000000000       0x50 src/spi.o
+ .debug_line    0x0000000000000000      0x30a src/spi.o
+ .debug_str     0x0000000000000000      0x44f src/spi.o
  .comment       0x0000000000000000       0x7d src/spi.o
- .debug_frame   0x0000000000000000       0xa0 src/spi.o
+ .debug_frame   0x0000000000000000      0x164 src/spi.o
  .ARM.attributes
                 0x0000000000000000       0x39 src/spi.o
  .text          0x0000000000000000       0x14 src/startup_stm32f303xc.o
@@ -396,7 +1012,7 @@ LOAD /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000188                . = ALIGN (0x4)
 
-.text           0x0000000008000188      0x19c
+.text           0x0000000008000188      0x1d4
                 0x0000000008000188                . = ALIGN (0x4)
  *(.text)
  .text          0x0000000008000188       0x40 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
@@ -487,87 +1103,87 @@ LOAD /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-
                 0x000000000800022c                TIM1_BRK_TIM15_IRQHandler
  *fill*         0x000000000800022e        0x2 
  .text.SystemInit
-                0x0000000008000230       0x94 src/system_stm32f3xx.o
+                0x0000000008000230       0xcc src/system_stm32f3xx.o
                 0x0000000008000230                SystemInit
  .text.__libc_init_array
-                0x00000000080002c4       0x48 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
-                0x00000000080002c4                __libc_init_array
+                0x00000000080002fc       0x48 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
+                0x00000000080002fc                __libc_init_array
  *(.glue_7)
- .glue_7        0x000000000800030c        0x0 linker stubs
+ .glue_7        0x0000000008000344        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800030c        0x0 linker stubs
+ .glue_7t       0x0000000008000344        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x000000000800030c        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
+ .eh_frame      0x0000000008000344        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
  *(.init)
- .init          0x000000000800030c        0x4 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crti.o
-                0x000000000800030c                _init
- .init          0x0000000008000310        0x8 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtn.o
+ .init          0x0000000008000344        0x4 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crti.o
+                0x0000000008000344                _init
+ .init          0x0000000008000348        0x8 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtn.o
  *(.fini)
- .fini          0x0000000008000318        0x4 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crti.o
-                0x0000000008000318                _fini
- .fini          0x000000000800031c        0x8 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtn.o
-                0x0000000008000324                . = ALIGN (0x4)
-                0x0000000008000324                _etext = .
+ .fini          0x0000000008000350        0x4 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crti.o
+                0x0000000008000350                _fini
+ .fini          0x0000000008000354        0x8 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtn.o
+                0x000000000800035c                . = ALIGN (0x4)
+                0x000000000800035c                _etext = .
 
-.vfp11_veneer   0x0000000008000324        0x0
- .vfp11_veneer  0x0000000008000324        0x0 linker stubs
+.vfp11_veneer   0x000000000800035c        0x0
+ .vfp11_veneer  0x000000000800035c        0x0 linker stubs
 
-.v4_bx          0x0000000008000324        0x0
- .v4_bx         0x0000000008000324        0x0 linker stubs
+.v4_bx          0x000000000800035c        0x0
+ .v4_bx         0x000000000800035c        0x0 linker stubs
 
-.iplt           0x0000000008000324        0x0
- .iplt          0x0000000008000324        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
+.iplt           0x000000000800035c        0x0
+ .iplt          0x000000000800035c        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
 
-.rel.dyn        0x0000000008000324        0x0
- .rel.iplt      0x0000000008000324        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
+.rel.dyn        0x000000000800035c        0x0
+ .rel.iplt      0x000000000800035c        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
 
-.rodata         0x0000000008000324        0x0
-                0x0000000008000324                . = ALIGN (0x4)
+.rodata         0x000000000800035c        0x0
+                0x000000000800035c                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
-                0x0000000008000324                . = ALIGN (0x4)
+                0x000000000800035c                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008000324        0x0
-                0x0000000008000324                __exidx_start = .
+.ARM            0x000000000800035c        0x0
+                0x000000000800035c                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008000324                __exidx_end = .
+                0x000000000800035c                __exidx_end = .
 
-.preinit_array  0x0000000008000324        0x0
-                0x0000000008000324                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x000000000800035c        0x0
+                0x000000000800035c                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x0000000008000324                PROVIDE (__preinit_array_end, .)
+                0x000000000800035c                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x0000000008000324        0x4
-                0x0000000008000324                PROVIDE (__init_array_start, .)
+.init_array     0x000000000800035c        0x4
+                0x000000000800035c                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008000324        0x4 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
-                0x0000000008000328                PROVIDE (__init_array_end, .)
+ .init_array    0x000000000800035c        0x4 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
+                0x0000000008000360                PROVIDE (__init_array_end, .)
 
-.fini_array     0x0000000008000328        0x4
+.fini_array     0x0000000008000360        0x4
                 [!provide]                        PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008000328        0x4 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
+ .fini_array    0x0000000008000360        0x4 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end, .)
-                0x000000000800032c                _sidata = LOADADDR (.data)
+                0x0000000008000364                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0x0 load address 0x000000000800032c
+.data           0x0000000020000000        0x0 load address 0x0000000008000364
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
  *(.data*)
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _edata = .
-                0x000000000800032c                _siccmram = LOADADDR (.ccmram)
+                0x0000000008000364                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x0000000020000000        0x0 load address 0x000000000800032c
+.igot.plt       0x0000000020000000        0x0 load address 0x0000000008000364
  .igot.plt      0x0000000020000000        0x0 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x000000000800032c
+.ccmram         0x0000000010000000        0x0 load address 0x0000000008000364
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -627,10 +1243,10 @@ LOAD /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-
                 0x000000000000011d       0x22 /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtn.o
 OUTPUT(wave_player_LL.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000      0x529
+.debug_info     0x0000000000000000      0x5b1
  .debug_info    0x0000000000000000       0xde src/main.o
  .debug_info    0x00000000000000de       0x77 src/startup_stm32f303xc.o
- .debug_info    0x0000000000000155      0x3d4 src/system_stm32f3xx.o
+ .debug_info    0x0000000000000155      0x45c src/system_stm32f3xx.o
 
 .debug_abbrev   0x0000000000000000      0x1b8
  .debug_abbrev  0x0000000000000000       0x87 src/main.o
@@ -650,16 +1266,16 @@ OUTPUT(wave_player_LL.elf elf32-littlearm)
  .debug_ranges  0x0000000000000010       0x20 src/startup_stm32f303xc.o
  .debug_ranges  0x0000000000000030       0x18 src/system_stm32f3xx.o
 
-.debug_line     0x0000000000000000      0x3c0
+.debug_line     0x0000000000000000      0x3da
  .debug_line    0x0000000000000000      0x17e src/main.o
  .debug_line    0x000000000000017e       0x7b src/startup_stm32f303xc.o
- .debug_line    0x00000000000001f9      0x1c7 src/system_stm32f3xx.o
+ .debug_line    0x00000000000001f9      0x1e1 src/system_stm32f3xx.o
 
-.debug_str      0x0000000000000000      0x3be
+.debug_str      0x0000000000000000      0x3e2
  .debug_str     0x0000000000000000      0x1d3 src/main.o
                                         0x218 (size before relaxing)
- .debug_str     0x00000000000001d3      0x1eb src/system_stm32f3xx.o
-                                        0x2f8 (size before relaxing)
+ .debug_str     0x00000000000001d3      0x20f src/system_stm32f3xx.o
+                                        0x321 (size before relaxing)
 
 .comment        0x0000000000000000       0x7c
  .comment       0x0000000000000000       0x7c src/main.o
@@ -716,16 +1332,106 @@ I2C1_ER_IRQHandler                                src/startup_stm32f303xc.o
 I2C1_EV_IRQHandler                                src/startup_stm32f303xc.o
 I2C2_ER_IRQHandler                                src/startup_stm32f303xc.o
 I2C2_EV_IRQHandler                                src/startup_stm32f303xc.o
+LL_ADC_CommonDeInit                               Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_CommonInit                                 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_CommonStructInit                           Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_INJ_Init                                   Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_INJ_StructInit                             Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_REG_Init                                   Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_REG_StructInit                             Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_ADC_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_adc.o
+LL_COMP_DeInit                                    Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+LL_COMP_Init                                      Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+LL_COMP_StructInit                                Drivers/LowLevel/src/stm32f3xx_ll_comp.o
+LL_CRC_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_crc.o
+LL_DAC_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+LL_DAC_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+LL_DAC_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_dac.o
+LL_DMA_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+LL_DMA_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+LL_DMA_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_dma.o
+LL_EXTI_DeInit                                    Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+LL_EXTI_Init                                      Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+LL_EXTI_StructInit                                Drivers/LowLevel/src/stm32f3xx_ll_exti.o
+LL_GPIO_DeInit                                    Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+LL_GPIO_Init                                      Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+LL_GPIO_StructInit                                Drivers/LowLevel/src/stm32f3xx_ll_gpio.o
+LL_I2C_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+LL_I2C_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+LL_I2C_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_i2c.o
+LL_I2S_ConfigPrescaler                            Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+LL_I2S_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+LL_I2S_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+LL_I2S_InitFullDuplex                             Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+LL_I2S_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
 LL_Init1msTick                                    Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+LL_OPAMP_DeInit                                   Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+LL_OPAMP_Init                                     Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
+LL_OPAMP_StructInit                               Drivers/LowLevel/src/stm32f3xx_ll_opamp.o
 LL_PLL_ConfigSystemClock_HSE                      Drivers/LowLevel/src/stm32f3xx_ll_utils.o
 LL_PLL_ConfigSystemClock_HSI                      Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+LL_PWR_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_pwr.o
+LL_RCC_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+LL_RCC_GetADCClockFreq                            Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+LL_RCC_GetI2CClockFreq                            Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+LL_RCC_GetI2SClockFreq                            Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+LL_RCC_GetSystemClocksFreq                        Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+                                                  Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+LL_RCC_GetTIMClockFreq                            Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+LL_RCC_GetUARTClockFreq                           Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+                                                  Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+LL_RCC_GetUSARTClockFreq                          Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+                                                  Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+LL_RCC_GetUSBClockFreq                            Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+LL_RTC_ALMA_Init                                  Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_ALMA_StructInit                            Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_ALMB_Init                                  Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_ALMB_StructInit                            Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_DATE_Init                                  Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_DATE_StructInit                            Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_EnterInitMode                              Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_ExitInitMode                               Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_TIME_Init                                  Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_TIME_StructInit                            Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_RTC_WaitForSynchro                             Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
+LL_SPI_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+LL_SPI_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+LL_SPI_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
 LL_SetSystemCoreClock                             Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+LL_TIM_BDTR_Init                                  Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_BDTR_StructInit                            Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_ENCODER_Init                               Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_ENCODER_StructInit                         Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_HALLSENSOR_Init                            Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_HALLSENSOR_StructInit                      Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_IC_Init                                    Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_IC_StructInit                              Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_OC_Init                                    Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_OC_StructInit                              Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_TIM_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_tim.o
+LL_USART_ClockInit                                Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+LL_USART_ClockStructInit                          Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+LL_USART_DeInit                                   Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+LL_USART_Init                                     Drivers/LowLevel/src/stm32f3xx_ll_usart.o
+LL_USART_StructInit                               Drivers/LowLevel/src/stm32f3xx_ll_usart.o
 LL_mDelay                                         Drivers/LowLevel/src/stm32f3xx_ll_utils.o
 MemManage_Handler                                 src/startup_stm32f303xc.o
 NMI_Handler                                       src/startup_stm32f303xc.o
 PVD_IRQHandler                                    src/startup_stm32f303xc.o
 PendSV_Handler                                    src/startup_stm32f303xc.o
+RCC_GetHCLKClockFreq                              Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+RCC_GetPCLK1ClockFreq                             Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+RCC_GetPCLK2ClockFreq                             Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+RCC_GetSystemClockFreq                            Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
 RCC_IRQHandler                                    src/startup_stm32f303xc.o
+RCC_PLL_GetFreqDomain_SYS                         Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
 RTC_Alarm_IRQHandler                              src/startup_stm32f303xc.o
 RTC_WKUP_IRQHandler                               src/startup_stm32f303xc.o
 Reset_Handler                                     src/startup_stm32f303xc.o
@@ -771,6 +1477,10 @@ USB_LP_CAN_RX0_IRQHandler                         src/startup_stm32f303xc.o
 USB_LP_IRQHandler                                 src/startup_stm32f303xc.o
 UsageFault_Handler                                src/startup_stm32f303xc.o
 WWDG_IRQHandler                                   src/startup_stm32f303xc.o
+__LL_RCC_CALC_HCLK_FREQ                           Drivers/LowLevel/src/stm32f3xx_ll_utils.o
+                                                  Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+__LL_RCC_CALC_PCLK1_FREQ                          Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
+__LL_RCC_CALC_PCLK2_FREQ                          Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
 __deregister_frame_info                           /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
 __dso_handle                                      /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/armv7e-m/fpu/crtbegin.o
 __init_array_end                                  /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/libc_nano.a(lib_a-init.o)
@@ -791,6 +1501,7 @@ _sdata                                            src/startup_stm32f303xc.o
 _sidata                                           src/startup_stm32f303xc.o
 _write                                            /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/libnosys.a(write.o)
                                                   src/tiny_printf.o
+aADCPrescTable                                    Drivers/LowLevel/src/stm32f3xx_ll_rcc.o
 errno                                             /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/libnosys.a(errno.o)
                                                   /opt/Atollic_TrueSTUDIO_for_STM32_x86_64_9.0.1/ARMTools/bin/../lib/gcc/arm-atollic-eabi/6.3.1/../../../../arm-atollic-eabi/lib/armv7e-m/fpu/libnosys.a(write.o)
 fiprintf                                          src/tiny_printf.o
