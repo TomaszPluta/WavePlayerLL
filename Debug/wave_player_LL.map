@@ -848,25 +848,45 @@ Discarded input sections
                 0x0000000000000000       0x28 src/spi.o
  .text.LL_GPIO_SetPinMode
                 0x0000000000000000       0x6e src/spi.o
+ .text.LL_GPIO_SetPinOutputType
+                0x0000000000000000       0x30 src/spi.o
  .text.LL_GPIO_SetPinSpeed
                 0x0000000000000000       0x6e src/spi.o
+ .text.LL_GPIO_SetPinPull
+                0x0000000000000000       0x6e src/spi.o
+ .text.LL_GPIO_SetAFPin_8_15
+                0x0000000000000000       0x72 src/spi.o
+ .text.LL_GPIO_SetOutputPin
+                0x0000000000000000       0x1c src/spi.o
+ .text.LL_GPIO_ResetOutputPin
+                0x0000000000000000       0x1c src/spi.o
+ .text.LL_SPI_Enable
+                0x0000000000000000       0x20 src/spi.o
+ .text.LL_SPI_IsActiveFlag_RXNE
+                0x0000000000000000       0x26 src/spi.o
+ .text.LL_SPI_IsActiveFlag_TXE
+                0x0000000000000000       0x26 src/spi.o
+ .text.LL_SPI_ReceiveData8
+                0x0000000000000000       0x1a src/spi.o
+ .text.LL_SPI_TransmitData8
+                0x0000000000000000       0x24 src/spi.o
  .text._ZN9SpiDriverC2Ev
-                0x0000000000000000       0x90 src/spi.o
+                0x0000000000000000      0x110 src/spi.o
  .text._ZN9SpiDriver8SpiCsLowEv
-                0x0000000000000000       0x20 src/spi.o
+                0x0000000000000000       0x18 src/spi.o
  .text._ZN9SpiDriver9SpiCsHighEv
-                0x0000000000000000       0x20 src/spi.o
+                0x0000000000000000       0x18 src/spi.o
  .text._ZN9SpiDriver8TransmitEh
                 0x0000000000000000       0x58 src/spi.o
- .debug_info    0x0000000000000000      0x6a9 src/spi.o
- .debug_abbrev  0x0000000000000000      0x243 src/spi.o
+ .debug_info    0x0000000000000000      0xafd src/spi.o
+ .debug_abbrev  0x0000000000000000      0x2a8 src/spi.o
  .debug_aranges
-                0x0000000000000000       0x60 src/spi.o
- .debug_ranges  0x0000000000000000       0x50 src/spi.o
- .debug_line    0x0000000000000000      0x30a src/spi.o
- .debug_str     0x0000000000000000      0x44f src/spi.o
+                0x0000000000000000       0xb0 src/spi.o
+ .debug_ranges  0x0000000000000000       0xa0 src/spi.o
+ .debug_line    0x0000000000000000      0x43b src/spi.o
+ .debug_str     0x0000000000000000      0x5ee src/spi.o
  .comment       0x0000000000000000       0x7d src/spi.o
- .debug_frame   0x0000000000000000      0x164 src/spi.o
+ .debug_frame   0x0000000000000000      0x2e8 src/spi.o
  .ARM.attributes
                 0x0000000000000000       0x39 src/spi.o
  .text          0x0000000000000000       0x14 src/startup_stm32f303xc.o
@@ -1401,6 +1421,7 @@ LL_RTC_TIME_StructInit                            Drivers/LowLevel/src/stm32f3xx
 LL_RTC_WaitForSynchro                             Drivers/LowLevel/src/stm32f3xx_ll_rtc.o
 LL_SPI_DeInit                                     Drivers/LowLevel/src/stm32f3xx_ll_spi.o
 LL_SPI_Init                                       Drivers/LowLevel/src/stm32f3xx_ll_spi.o
+                                                  src/spi.o
 LL_SPI_StructInit                                 Drivers/LowLevel/src/stm32f3xx_ll_spi.o
 LL_SetSystemCoreClock                             Drivers/LowLevel/src/stm32f3xx_ll_utils.o
 LL_TIM_BDTR_Init                                  Drivers/LowLevel/src/stm32f3xx_ll_tim.o

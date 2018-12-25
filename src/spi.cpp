@@ -10,6 +10,7 @@
 #include "stm32f3xx.h"
 #include "stm32f3xx_ll_bus.h"
 #include "stm32f3xx_ll_gpio.h"
+#include "stm32f3xx_ll_spi.h"
 
 SpiDriver::SpiDriver(void){
 
@@ -19,59 +20,59 @@ SpiDriver::SpiDriver(void){
 	LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_SPI2);
 
 
+	/*CS Pin*/
 	LL_GPIO_SetPinMode(GPIOB, LL_GPIO_PIN_12, LL_GPIO_MODE_OUTPUT);
 	LL_GPIO_SetPinOutputType(GPIOB, LL_GPIO_PIN_12, LL_GPIO_OUTPUT_PUSHPULL);
 	LL_GPIO_SetPinPull(GPIOB, LL_GPIO_PIN_12, LL_GPIO_PULL_UP);
+	LL_GPIO_SetPinSpeed(GPIOB, LL_GPIO_PIN_12, LL_GPIO_SPEED_FREQ_HIGH);
 
+	/*SPI Hardware controlled Pin*/
 	LL_GPIO_SetPinMode(GPIOB, LL_GPIO_PIN_13, LL_GPIO_MODE_ALTERNATE);
 	LL_GPIO_SetPinMode(GPIOB, LL_GPIO_PIN_14, LL_GPIO_MODE_ALTERNATE);
 	LL_GPIO_SetPinMode(GPIOB, LL_GPIO_PIN_15, LL_GPIO_MODE_ALTERNATE);
 
-
-	LL_GPIO_SetPinSpeed(GPIOB, LL_GPIO_PIN_12, LL_GPIO_SPEED_FREQ_HIGH);
 	LL_GPIO_SetPinSpeed(GPIOB, LL_GPIO_PIN_13, LL_GPIO_SPEED_FREQ_HIGH);
 	LL_GPIO_SetPinSpeed(GPIOB, LL_GPIO_PIN_14, LL_GPIO_SPEED_FREQ_HIGH);
 	LL_GPIO_SetPinSpeed(GPIOB, LL_GPIO_PIN_15, LL_GPIO_SPEED_FREQ_HIGH);
 
-//	GPIOB->PUPDR|= GPIO_PUPDR_PUPDR12_0;
-//
-//
-//
-//	GPIOB->AFR[1] |= (1<<20) | (1<<22);
-//	GPIOB->AFR[1] |= (1<<24) | (1<<26);
-//	GPIOB->AFR[1] |= (1<<28) | (1<<30);
-//
-//
-//	SPI2->CR1 |= SPI_CR1_BR_0 | SPI_CR1_BR_2 ;
-//	SPI2->CR1 |= SPI_CR1_MSTR;
-//	SPI2->CR1 |=  SPI_CR1_SSM;
-//	SPI2->CR1 |=  SPI_CR1_SSI;
-//
-//	SPI2->CR2 |= SPI_CR2_DS_0 | SPI_CR2_DS_1 | SPI_CR2_DS_2;
-//	SPI2->CR2 |= SPI_CR2_FRXTH;
-//	SPI2->CR2 |= SPI_CR2_SSOE;
-//
-//	SPI2->CR1 |= SPI_CR1_SPE;
 
+	LL_GPIO_SetAFPin_8_15(GPIOB, LL_GPIO_PIN_13, LL_GPIO_AF_5);
+	LL_GPIO_SetAFPin_8_15(GPIOB, LL_GPIO_PIN_14, LL_GPIO_AF_5);
+	LL_GPIO_SetAFPin_8_15(GPIOB, LL_GPIO_PIN_15, LL_GPIO_AF_5);
+
+
+	LL_SPI_InitTypeDef SPI_InitStruct;
+	SPI_InitStruct.BaudRate = LL_SPI_BAUDRATEPRESCALER_DIV64;
+	SPI_InitStruct.BitOrder = LL_SPI_MSB_FIRST;
+	SPI_InitStruct.CRCCalculation = LL_SPI_CRCCALCULATION_DISABLE;
+	SPI_InitStruct.CRCPoly = 0;
+	SPI_InitStruct.ClockPhase = LL_SPI_PHASE_1EDGE;
+	SPI_InitStruct.ClockPolarity = LL_SPI_POLARITY_LOW;
+	SPI_InitStruct.DataWidth = LL_SPI_DATAWIDTH_8BIT;
+	SPI_InitStruct.Mode = LL_SPI_MODE_MASTER;
+	SPI_InitStruct.NSS = LL_SPI_NSS_SOFT;
+	SPI_InitStruct.TransferDirection = LL_SPI_FULL_DUPLEX;
+	LL_SPI_Init(SPI2, &SPI_InitStruct);
+	LL_SPI_Enable(SPI2);
 }
 
 
 
 void SpiDriver::SpiCsLow (void){
-	GPIOB->ODR &= ~GPIO_ODR_12;
+	LL_GPIO_ResetOutputPin(GPIOB, LL_GPIO_PIN_12);
 }
 void SpiDriver::SpiCsHigh (void){
-	GPIOB->ODR |= GPIO_ODR_12;
+	LL_GPIO_SetOutputPin(GPIOB, LL_GPIO_PIN_12);
 }
 
 
 
 
 uint8_t SpiDriver::Transmit(uint8_t byte){
-	while (!(SPI2->SR & SPI_SR_TXE));
-	*(__IO uint8_t *) &(SPI2->DR) = byte;
-	while (!(SPI2->SR & SPI_SR_RXNE));
-	return *(uint8_t *)&(SPI2->DR);
+	while (!(LL_SPI_IsActiveFlag_TXE(SPI2)));
+	LL_SPI_TransmitData8(SPI2,byte);
+	while (!(LL_SPI_IsActiveFlag_RXNE(SPI2)));
+	return LL_SPI_ReceiveData8(SPI2);
 }
 
 
