@@ -14,7 +14,6 @@
 
 SpiDriver::SpiDriver(void){
 
-	LL_APB1_GRP1_DisableClock(LL_APB1_GRP1_PERIPH_SPI2);
 
 	LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOB);
 	LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_SPI2);

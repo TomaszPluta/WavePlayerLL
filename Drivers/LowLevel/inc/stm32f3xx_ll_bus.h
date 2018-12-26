@@ -82,7 +82,6 @@ extern "C" {
 /* Exported constants --------------------------------------------------------*/
 /** @defgroup BUS_LL_Exported_Constants BUS Exported Constants
   * @{
-  */
 
 /** @defgroup BUS_LL_EC_AHB1_GRP1_PERIPH  AHB1 GRP1 PERIPH
   * @{

@@ -30,13 +30,13 @@ SOFTWARE.
 /* Includes */
 #include "stm32f3xx.h"
 #include "spi.h"
+#include "wave.h"
 
-
-
+#include "dac.h"
 #include "diskio.h"
 #include "ff.h"
 
-
+#include "../doorbel.c"
 /**
 **===========================================================================
 **
@@ -60,7 +60,9 @@ int main(void)
 	  const uint16_t bytesToRead = 1024;
 	  uint8_t readBuff[bytesToRead];
 	  UINT readBytes;
-	  res = f_read(&fp,  (uint8_t*) &readBuff, bytesToRead, &readBytes);
+	  waveHeader_t waveHeader;
+	  res = f_read(&fp,  (uint8_t*) &waveHeader, sizeof(waveHeader_t), &readBytes);
+
 
 
 
@@ -68,6 +70,7 @@ int main(void)
 	  res = f_read(&fp,  (uint8_t*) sound_wav, 35460, &readBytes);
 	  f_close(&fp);
 
+	  dac dacObj(&doorbelWav[4000], doorbelWavLen-4000);
 
   uint32_t ii = 0;
 
