@@ -1,0 +1,18 @@
+sd_stm32.cpp:60:6:void SELECT()	8	static
+sd_stm32.cpp:66:6:void DESELECT()	8	static
+sd_stm32.cpp:94:13:void xmit_spi(BYTE)	16	static
+sd_stm32.cpp:99:13:BYTE rcvr_spi()	16	static
+sd_stm32.cpp:108:6:void rcvr_spi_m(BYTE*)	16	static
+sd_stm32.cpp:118:6:BYTE wait_ready()	16	static
+sd_stm32.cpp:138:6:void power_on()	16	static
+sd_stm32.cpp:153:6:void power_off()	4	static
+sd_stm32.cpp:159:5:int chk_power()	4	static
+sd_stm32.cpp:171:6:bool rcvr_datablock(BYTE*, UINT)	24	static
+sd_stm32.cpp:202:6:bool xmit_datablock(const BYTE*, BYTE)	24	static
+sd_stm32.cpp:248:6:BYTE send_cmd(BYTE, DWORD)	24	static
+sd_stm32.cpp:290:9:DSTATUS disk_initialize(BYTE)	32	static
+sd_stm32.cpp:349:9:DSTATUS disk_status(BYTE)	16	static
+sd_stm32.cpp:363:9:DRESULT disk_read(BYTE, BYTE*, DWORD, BYTE)	24	static
+sd_stm32.cpp:405:9:DRESULT disk_write(BYTE, const BYTE*, DWORD, BYTE)	24	static
+sd_stm32.cpp:452:9:DRESULT disk_ioctl(BYTE, BYTE, void*)	56	static
+sd_stm32.cpp:559:6:void disk_timerproc()	16	static

@@ -16,7 +16,7 @@ SpiDriver::SpiDriver(void){
 
 	LL_APB1_GRP1_DisableClock(LL_APB1_GRP1_PERIPH_SPI2);
 
-	LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOA);
+	LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_GPIOB);
 	LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_SPI2);
 
 
@@ -41,6 +41,7 @@ SpiDriver::SpiDriver(void){
 	LL_GPIO_SetAFPin_8_15(GPIOB, LL_GPIO_PIN_15, LL_GPIO_AF_5);
 
 
+	LL_SPI_SetRxFIFOThreshold(SPI2, LL_SPI_RX_FIFO_TH_QUARTER);
 	LL_SPI_InitTypeDef SPI_InitStruct;
 	SPI_InitStruct.BaudRate = LL_SPI_BAUDRATEPRESCALER_DIV64;
 	SPI_InitStruct.BitOrder = LL_SPI_MSB_FIRST;
@@ -54,6 +55,7 @@ SpiDriver::SpiDriver(void){
 	SPI_InitStruct.TransferDirection = LL_SPI_FULL_DUPLEX;
 	LL_SPI_Init(SPI2, &SPI_InitStruct);
 	LL_SPI_Enable(SPI2);
+
 }
 
 

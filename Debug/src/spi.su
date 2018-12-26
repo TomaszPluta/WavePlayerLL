@@ -9,11 +9,12 @@ stm32f3xx_ll_gpio.h:647:22:void LL_GPIO_SetAFPin_8_15(GPIO_TypeDef*, uint32_t, u
 stm32f3xx_ll_gpio.h:896:22:void LL_GPIO_SetOutputPin(GPIO_TypeDef*, uint32_t)	16	static
 stm32f3xx_ll_gpio.h:925:22:void LL_GPIO_ResetOutputPin(GPIO_TypeDef*, uint32_t)	16	static
 stm32f3xx_ll_spi.h:375:22:void LL_SPI_Enable(SPI_TypeDef*)	16	static
+stm32f3xx_ll_spi.h:682:22:void LL_SPI_SetRxFIFOThreshold(SPI_TypeDef*, uint32_t)	16	static
 stm32f3xx_ll_spi.h:922:26:uint32_t LL_SPI_IsActiveFlag_RXNE(SPI_TypeDef*)	16	static
 stm32f3xx_ll_spi.h:933:26:uint32_t LL_SPI_IsActiveFlag_TXE(SPI_TypeDef*)	16	static
 stm32f3xx_ll_spi.h:1351:25:uint8_t LL_SPI_ReceiveData8(SPI_TypeDef*)	16	static
 stm32f3xx_ll_spi.h:1374:22:void LL_SPI_TransmitData8(SPI_TypeDef*, uint8_t)	24	static
 spi.cpp:15:1:SpiDriver::SpiDriver()	56	static
-spi.cpp:61:6:static void SpiDriver::SpiCsLow()	8	static
-spi.cpp:64:6:static void SpiDriver::SpiCsHigh()	8	static
-spi.cpp:71:9:static uint8_t SpiDriver::Transmit(uint8_t)	16	static
+spi.cpp:63:6:static void SpiDriver::SpiCsLow()	8	static
+spi.cpp:66:6:static void SpiDriver::SpiCsHigh()	8	static
+spi.cpp:73:9:static uint8_t SpiDriver::Transmit(uint8_t)	16	static

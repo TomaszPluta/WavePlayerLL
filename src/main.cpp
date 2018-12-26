@@ -30,12 +30,12 @@ SOFTWARE.
 /* Includes */
 #include "stm32f3xx.h"
 #include "spi.h"
-/* Private macro */
-/* Private variables */
-/* Private function prototypes */
-/* Private functions */
 
-#include "stm32f3xx_ll_gpio.h"
+
+
+#include "diskio.h"
+#include "ff.h"
+
 
 /**
 **===========================================================================
@@ -48,6 +48,25 @@ int main(void)
 {
 
 
+	  SpiDriver Spi;
+
+
+	  disk_initialize(0);
+
+	  FATFS fatDrive;
+	  f_mount( 0, &fatDrive);
+	  FIL fp;
+	  FRESULT res = 	f_open(&fp, "sound", FA_OPEN_EXISTING | FA_READ);
+	  const uint16_t bytesToRead = 1024;
+	  uint8_t readBuff[bytesToRead];
+	  UINT readBytes;
+	  res = f_read(&fp,  (uint8_t*) &readBuff, bytesToRead, &readBytes);
+
+
+
+	  uint8_t sound_wav[35460];
+	  res = f_read(&fp,  (uint8_t*) sound_wav, 35460, &readBytes);
+	  f_close(&fp);
 
 
   uint32_t ii = 0;
